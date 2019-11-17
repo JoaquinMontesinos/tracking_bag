@@ -28,7 +28,7 @@
               <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal1">
                 See video
               </button>
-              <a href="#" class="recovered btn btn-primary" tabindex="-1" role="button" aria-disabled="true">I have recovered my baggage</a>
+              <a href="#" data-id="{$event_data['id']}" class="recovered btn btn-primary" tabindex="-1" role="button" aria-disabled="true">I have recovered my baggage</a>
             </p>
           </div>
           <input type="hidden" id="last_seen_date" value="{$event_data['last_seen_date']}">
@@ -102,8 +102,6 @@
         <input hidden class="complaint_data" type="hidden" id="baggageId" value="{$event_data['missing_bag_city']}">
         <input hidden class="complaint_data" type="hidden" id="baggageId" value="{$event_data['missing_bag_date']}">
         <input hidden class="complaint_data" type="hidden" id="eventType" value="{$event_data['event']}">
-
-        <input hidden type="hidden" id="incidentId" value="{$event_data['id']}">
       {/foreach}
       <br>
       <br>

@@ -26,7 +26,7 @@ $(document).ready(function(){
   $('.recovered').on('click', function(event) {
     event.preventDefault();
     let data = {
-      incidentId: $('#incidentId').val()
+      incidentId: $(this).data('id')
     };
     let data_to_send = {
       'data': data,
@@ -42,6 +42,7 @@ $(document).ready(function(){
         location.reload(false);
       }
     });
+    
   });
 
 });
