@@ -1,0 +1,33 @@
+body {
+  padding-top: 54px;
+  /*padding-bottom: 100px;*/
+  min-height: 100vh;
+}
+
+main{
+  min-height: 85vh;
+}
+
+video{
+  width: 724px;
+  max-width: 100%;
+}
+
+footer{
+  height: 15vh;
+  max-height: 70px;
+  min-height: 70px;
+}
+
+#profile_picture{
+  max-height: 40px;
+}
+
+.hideIfEmpty:empty{display:none;}
+
+/*Checkbox con aspecto de botones que tienen el problema 
+de que se cambian doble cuando se hace click al input y no al label. Así se soluciona*/
+form label.btn input[type="checkbox"] {
+  pointer-events: none;
+}
+
