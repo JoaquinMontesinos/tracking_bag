@@ -1,8 +1,11 @@
 # Tracking Bag 
 ## The ultimate solution in baggage tracking to improve travelers experience. 
 Track: Future cities
+
 Challenge: Smooth Travels
+
 https://2019.hackjunction.com/challenges/smooth-travels
+
 https://github.com/QOCOSystems/junction-2019-api-doc
 
 ![Tracking Bag visual interface](./images/img2.png)
