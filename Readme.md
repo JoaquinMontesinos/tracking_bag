@@ -21,13 +21,10 @@ Currently, airlines are able to detect missing suitcases if they have been lost 
 
 Thanks to Tracking Bag App and our object detection based algorithm, we are able to detect the concrete moment in time where the incident has happened. Additionally, we guide the costumer on the following steps required to retrieve the suitcase.
 
-![img1](./images/img4.png)
-
 
 # Development of the proof of concept prototype
 We have develope a proof of concept prototype in order to test and demostrate the technology.  
 
 ![img1](./images/img1.png)
-![img2](./images/img2.png)
 ![img3](./images/img3.png)
 ![Block Diagram](./images/diagram.png)
